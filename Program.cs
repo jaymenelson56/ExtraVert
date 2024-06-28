@@ -110,7 +110,8 @@ while (choice != "0")
        
         foreach (Plant plant in plants)
         {
-            string plantDetails = PlantDetails(count, plant);
+            string plantDetails = PlantDetails(count, 
+            plant);
             Console.WriteLine(plantDetails);
             count++;
            
